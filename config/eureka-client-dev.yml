@@ -1,4 +1,10 @@
-spring.application.name=WebServiceService
-server.port=6003
+server:
+    port: 6003
+spring:
+  application:
+    name: webService
  
-eureka.client.service-url.defaultZone=http://localhost:5000/eureka/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5000/eureka/
